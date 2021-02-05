@@ -1,4 +1,4 @@
-{
+*{
   box-sizing: border-box;
 }
 
@@ -14,14 +14,15 @@ p {
   padding: 15px;
   font-family: "lucida handwriting", cursive;
   position: relative;
+  clear:right;
 }
 
 .section { 
     background-color:gray;
-    border: 3px solid black;
-    margin-top: 20px; 
-    margin-right: 20px; 
-    padding: 3px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: 5px;
+    margin-bottom: 5px;
     text-align: justify;
     position: relative;
  }
@@ -118,6 +119,8 @@ span {
   }
   .col-md-6 {
     width: 50%;
+    margin-left: auto;
+    margin-right: auto;
   }
   .col-md-7 {
     width: 58.33%;
@@ -136,6 +139,8 @@ span {
   }
   .col-md-12 {
     width: 100%;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
