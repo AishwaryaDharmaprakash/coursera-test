@@ -10,15 +10,20 @@ h1 {
         
 }
 
-p {
+p  {
   padding: 15px;
   font-family: "lucida handwriting", cursive;
   position: relative;
   clear:right;
-}
 
-.section { 
-    background-color:gray;
+}
+p:hover {
+    background-color: blue;
+ }
+
+
+.section{ 
+    background-color:;
     border: 1px solid black;
     margin-left: auto;
     margin-right: 5px;
@@ -27,7 +32,11 @@ p {
     position: relative;
  }
 
-span {
+ .section:hover {
+    background-color: blue;
+ }
+
+span{
   font-family: "copperplate", fantasy;
   width: 200px;
   border: 1px solid black;
